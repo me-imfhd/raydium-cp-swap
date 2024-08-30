@@ -63,7 +63,6 @@ describe("initialize test", () => {
     );
     assert.equal(vault1.amount.toString(), initAmount1.toString());
   });
-
   it("create pool with fee", async () => {
     const { configAddress, token0, token0Program, token1, token1Program } =
       await setupInitializeTest(

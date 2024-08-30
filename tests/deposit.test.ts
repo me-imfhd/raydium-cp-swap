@@ -238,7 +238,6 @@ describe("deposit test", () => {
       poolVault1TokenAccountAfter2.amount
     );
   });
-
   it("deposit test with 100% transferFeeConfig, reache maximum fee limit", async () => {
     const transferFeeConfig = {
       transferFeeBasisPoints: MAX_FEE_BASIS_POINTS,
